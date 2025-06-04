@@ -1,6 +1,5 @@
 import random
 from math import ceil
-from decimal import Decimal
 
 field = 10**5
 t, n = 3, 5
