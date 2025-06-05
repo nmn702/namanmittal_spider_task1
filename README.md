@@ -1,1 +1,7 @@
 # namanmittal_spider_task1
+1. The block chain code is about Shamir's Secret Sharing scheme. It is a way to securely split a secret into multiple parts called shares so that only a certain number of them which is the threshold are needed to reconstruct the original secret. a secret number is hidden using a randomly generated polynomial. Each share is a point on this polynomial. Out of n shares generated, any t number of shares can be used to recover the original secret using Lagrange interpolation. The code shows both creating shares and reconstructing the secret from a random subset of shares.
+
+2. The ML code is used to perform image classification using a pre-trained ResNet18 model in PyTorch on a dataset of vehicles. The dataset is first unzipped, and images are resized and converted into tensors. It is then split into training and testing sets. A pre-trained ResNet18 model is used to classify images into 7 vehicle categories. The model is trained for 5 epochs, using cross-entropy loss and the Adam optimizer. After training, the model is evaluated on the test set for accuracy and loss. Finally, a few random predictions are visualized using matplotlib, comparing actual and predicted labels to showcase the model's performance.
+
+3. Conducted Google Dorking discovery exercise to identify exposed public documents, login panels, configuration files, and contact info for websites: tesla.com, science.gov, and nasa.gov.
+Used commands mentioned in the report to find the above and created the report.
